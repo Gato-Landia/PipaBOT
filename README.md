@@ -25,3 +25,8 @@ Dime una pregunta de si o no, yo te la responderé
 
 pp!invite
 Pipa enviará un link para invitar al bot a cualquier servidor
+
+pp!ping
+Mira tu ping (ms)!
+
+El bot está bajo construcción, puedes invitarlo mediante este link: https://discordapp.com/api/oauth2/authorize?client_id=646202049926791180&permissions=8&scope=bot
