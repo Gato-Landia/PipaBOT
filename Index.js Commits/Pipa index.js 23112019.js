@@ -213,6 +213,7 @@ if(!canalvoz) {
         .addField("pp!stop", "Pipa detiene la reproducción del URL y sale del canal de voz")
         .addField("pp!somos", "Te diré qué somos")
         .addField("pp!siono", "Dime una pregunta de si o no, yo te la responderé")
+        .addField("pp!invite", "Pipa enviará un link para invitar al bot a cualquier servidor")
         message.channel.send(embed);
     };
          
