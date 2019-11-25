@@ -11,7 +11,7 @@ client.on("ready", () => {
    client.user.setPresence({
     status: "online",
     game: {
-        name: "pp!help / Versión 1.0.1",
+        name: "pp!help / Versión 1.0.2",
         type: "PLAYING"
     }
 })
