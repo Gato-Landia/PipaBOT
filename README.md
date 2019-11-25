@@ -29,4 +29,22 @@ Pipa enviará un link para invitar al bot a cualquier servidor
 pp!ping
 Mira tu ping (ms)!
 
+pp!wallpaper-1366x768/1920x1080/1280x800/1280x720/4k
+Pipa eligirá un wallpaper aleatorio dependiendo de tu resolución
+
+pp!kick [Nombre] [Razón]
+Kickea a una persona del servidor
+
+pp!ban [Nombre] [Razón]
+Banea a una persona del servidor
+
+pp!borrar [Número de mensajes]
+Borra un determinado número de mensajes en el canal
+
+pp!serverinfo
+Muestra información del servidor
+
+pp!avatar [Nombre]
+Muestra el avatar de la persona elegida, si no se especifica una, se muestra tu avatar
+
 El bot está bajo construcción, puedes invitarlo mediante este link: https://discordapp.com/api/oauth2/authorize?client_id=646202049926791180&permissions=8&scope=bot
