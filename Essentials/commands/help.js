@@ -21,7 +21,11 @@ module.exports = {
         .addField("pp!ban [Nombre] [Razón]", "Banea a una persona del servidor")
         .addField("pp!borrar [Número de mensajes]", "Borra un determinado número de mensajes en el canal")
         .addField("pp!serverinfo", "Muestra información del servidor")
+        .addField("pp!userinfo [Nombre]", "Muestra información del usuario indicado")
         .addField("pp!avatar [Nombre]", "Muestra el avatar de la persona elegida, si no se especifica se muestra tu avatar")
+        .addField("pp!play [URL]", "Reproduce el URL indicado")
+        .addField("pp!stop", "Detiene la reproducción del URL y sale del canal de voz")
+        .addField("pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k", "Muestra un wallpaper aleatorio dependiendo de tu resolución")
         .addField("pp!repite", "Pipa repitirá lo que digas");
         message.channel.send(embed);
     },
