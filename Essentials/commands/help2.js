@@ -8,7 +8,7 @@ module.exports = {
         .setColor("#74FF00")
         .setTitle(`Información sobre el bot:`)
         .addField("Programadores:", "Blox, GatoLandia")
-        .addField("Versión del bot:", "1.1.2")
+        .addField("Versión del bot:", "1.1.3")
         .addField("Repositorio (Actualmente solo en GitHub):", "https://github.com/Gato-Landia/PipaBOT")
         .addField("pp!suma [Números]", "Realiza una operación de suma desde 2 a 5 números diferentes")
         .addField("pp!resta [Números]", "Realiza una operación de resta desde 2 a 5 números diferentes")
