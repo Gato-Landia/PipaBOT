@@ -9,7 +9,7 @@ module.exports = {
         .setColor("#74FF00")
         .setTitle(`Información sobre el bot:`)
         .addField("Programadores:", "Blox, GatoLandia")
-        .addField("Versión del bot:", "1.1.2")
+        .addField("Versión del bot:", "1.1.3")
         .addField("Repositorio (Actualmente solo en GitHub):", "https://github.com/Gato-Landia/PipaBOT")
         .addField("pp!pipa", "Muestra una imagen de un loro aleatorio")
         .addField("pp!hola", "Pipa te saluda")
