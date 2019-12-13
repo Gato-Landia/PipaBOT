@@ -15,6 +15,7 @@ module.exports = {
         .addField("pp!hola", "Pipa te saluda")
         .addField("pp!piedra/pp!papel/pp!tijeras", "Inicias una ronda de Piedra, papel o tijeras contra Pipa")
         .addField("pp!siono", "Di una pregunta de si o no, Pipa te la responderá")
+        .addField("pp!repite", "Pipa repitirá lo que digas")
         .addField("pp!invite", "Pipa enviará un link para invitar al bot a cualquier servidor")
         .addField("pp!ping", "Mira tu ping (ms)!")
         .addField("pp!kick [Nombre] [Razón]", "Kickea a una persona del servidor")
@@ -26,7 +27,9 @@ module.exports = {
         .addField("pp!play [URL]", "Reproduce el URL indicado")
         .addField("pp!stop", "Detiene la reproducción del URL y sale del canal de voz")
         .addField("pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k", "Muestra un wallpaper aleatorio dependiendo de tu resolución")
-        .addField("pp!repite", "Pipa repitirá lo que digas");
+        .addField("pp!searchgl [Búsqueda]", "Busca en Google")
+        .addField("pp!searchyt [Búsqueda]", "Busca en YouTube")
+        .setFooter("Page 1 of 2")
         message.channel.send(embed);
     },
 };
