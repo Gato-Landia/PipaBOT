@@ -132,7 +132,7 @@ pp!roll
 Tira un dado
 
 
-pp!whatsnew
+**pp!whatsnew**
 
 Lista de los ultimos cambios en la actualización
 
