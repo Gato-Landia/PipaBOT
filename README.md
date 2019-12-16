@@ -87,47 +87,47 @@ Busca en Spotify
 Busca en Google
 
 
-**pp!searchyt [Búsqueda]
+**pp!searchyt [Búsqueda]**
 
 Busca en YouTube
 
 
-**pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k
+**pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k**
 
 Muestra un wallpaper aleatorio dependiendo de tu resolución
 
 
-**pp!suma [Números]
+**pp!suma [Números]**
 
 Realiza una operación de suma desde 2 a 5 números diferentes
 
 
-**pp!resta [Números]
+**pp!resta [Números]**
 
 Realiza una operación de resta desde 2 a 5 números diferentes
 
 
-**pp!multiplicacion [Números]
+**pp!multiplicacion [Números]**
 
 Realiza una operación de multiplicación desde 2 a 5 números diferentes
 
 
-**pp!division [Números]
+**pp!division [Números]**
 
 Realiza una operación de multiplicación desde 2 a 5 números diferentes
 
 
-**pp!f-to-c [Fahrenheit]
+**pp!f-to-c [Fahrenheit]**
 
 Convierte de F° a C°
 
 
-**pp!c-to-f [Celsius]
+**pp!c-to-f [Celsius]**
 
 Convierte de C° a F°
 
 
-**pp!roll
+**pp!roll**
 
 Tira un dado
 
