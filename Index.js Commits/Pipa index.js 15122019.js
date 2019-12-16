@@ -3,7 +3,8 @@
 //  LOS COMANDOS SE ENCUENTRAN EN GITHUB: PipaBOT/Essentials/Commands
 const Discord = require('discord.js');
 const fs = require('fs');
-const prefix = 'pp!';
+const prefix = 'pb!';
+console.log('PipaBOT 1.1.4-beta está alojado en PipaBETA el cual es una versión que aún no se ha lanzado, ésta versión puede contener muchos errores. Úselo bajo su propio riesgo');
 const client = new Discord.Client();
 const ownerID = '395077110814867456';
 const active = new Map();
@@ -19,11 +20,11 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-	console.log('PipaBOT 1.1.4 is now ENABLED');
+	console.log('PipaBOT 1.1.4-beta is now ENABLED');
   client.user.setPresence({
     status: "online",
     game: {
-        name: "pb!help / Versión 1.1.4",
+        name: "pb!help / Versión 1.1.4-beta",
         type: "LISTENING",
     },
 });
