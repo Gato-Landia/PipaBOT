@@ -9,8 +9,8 @@ module.exports = {
         .setColor("#74FF00")
         .setTitle(`Información sobre el bot:`)
         .addField("Programadores:", "Blox, GatoLandia")
-        .addField("Versión del bot:", "1.1.3")
-        .addField("Repositorio (Actualmente solo en GitHub):", "https://github.com/Gato-Landia/PipaBOT")
+        .addField("Versión del bot:", "1.1.4")
+        .addField("Repositorio:", "https://github.com/Gato-Landia/PipaBOT")
         .addField("pp!pipa", "Muestra una imagen de un loro aleatorio")
         .addField("pp!hola", "Pipa te saluda")
         .addField("pp!piedra/pp!papel/pp!tijeras", "Inicias una ronda de Piedra, papel o tijeras contra Pipa")
@@ -26,10 +26,11 @@ module.exports = {
         .addField("pp!avatar [Nombre]", "Muestra el avatar de la persona elegida, si no se especifica se muestra tu avatar")
         .addField("pp!play [URL]", "Reproduce el URL indicado")
         .addField("pp!stop", "Detiene la reproducción del URL y sale del canal de voz")
-        .addField("pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k", "Muestra un wallpaper aleatorio dependiendo de tu resolución")
+        .addField("pp!searchsp [Búsqueda]", "Busca en Spotify")
         .addField("pp!searchgl [Búsqueda]", "Busca en Google")
         .addField("pp!searchyt [Búsqueda]", "Busca en YouTube")
-        .setFooter("Page 1 of 2")
+        .addField("pp!wallpaper-1366x768/1280x720/1280x800/1920x1080/4k", "Muestra un wallpaper aleatorio dependiendo de tu resolución")
+        .setFooter("Page 1 of 2");
         message.channel.send(embed);
     },
 };
