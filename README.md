@@ -81,6 +81,7 @@ Tira un dado
 
 pp!whatsnew
 Lista de los ultimos cambios en la actualización
+
 ------------------------------------------------
 
 Invita al bot con este link: [https://discordapp.com/api/oauth2/authorize?client_id=646202049926791180&permissions=8&scope=bot](https://discordapp.com/api/oauth2/authorize?client_id=646202049926791180&permissions=8&scope=bot)
