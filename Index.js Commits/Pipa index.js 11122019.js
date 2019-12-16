@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const prefix = "pp!"
+const prefix = "pb!"
+console.log('PipaBOT 1.1.2-beta está alojado en PipaBETA el cual es una versión que aún no se ha lanzado, ésta versión puede contener muchos errores. Úselo bajo su propio riesgo');
 const fs = require('fs');
 
 const client = new Discord.Client();
@@ -18,7 +19,7 @@ client.once('ready', () => {
   client.user.setPresence({
     status: "online",
     game: {
-        name: "pp!help / Versión 1.1.2",
+        name: "pb!help / Versión 1.1.2-beta",
         type: "LISTENING"
     }
 })
